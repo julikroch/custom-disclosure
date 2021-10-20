@@ -5,6 +5,7 @@
     &__link {
         text-decoration: none;
         transition: ease .3s;
+        color: rgba($color-white, .8);
 
         &:hover {
             color: $color-dark-blue;
