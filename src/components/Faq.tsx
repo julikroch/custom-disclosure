@@ -4,11 +4,11 @@ import faqData from '../json/faq.json'
 const Faq = () => {
     return (
         <div className='faq__wrapper'>
-            <h2 className="faq">FAQ</h2>
+            <h2 className="faq__title">FAQ</h2>
             {faqData.map((data, i) => (
-                <div className="container" key={i}>
-                    <h2 className="">{data.title}</h2>
-                    <p>{data.answer}</p>
+                <div className="faq__content" key={i}>
+                    <h4 className="faq__content-question">{data.title}</h4>
+                    <p className="faq__content-answer">{data.answer}</p>
                 </div>
             ))}
         </div>

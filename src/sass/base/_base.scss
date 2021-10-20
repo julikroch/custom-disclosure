@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(173, 104, 232, 1) 0%, rgba(102, 99, 231, 1) 100%) no-repeat;
+}

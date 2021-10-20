@@ -1,0 +1,13 @@
+.attribution {
+    padding: 1rem 0;
+    text-align: center;
+
+    &__link {
+        text-decoration: none;
+        transition: ease .3s;
+
+        &:hover {
+            color: $color-dark-blue;
+        }
+    }
+}
