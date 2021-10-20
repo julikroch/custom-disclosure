@@ -18,7 +18,7 @@ const Faq = () => {
             <h2 className="faq__title">faq</h2>
             {faqData.map((data, i) => (
                 <div
-                    className={`faq__content${open === i ? ' visible' : ''}`}
+                    className={ `faq__content${open === i ? ' visible' : '' }`}
                     key={i}
                 >
                     <h4
