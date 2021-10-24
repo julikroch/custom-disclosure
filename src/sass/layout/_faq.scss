@@ -11,7 +11,7 @@
     padding: 2rem;
     box-shadow: 0 10px 15px rgba($color-black, .4);
 
-    @media (max-width: 767px) {
+    @include respond(phone) {
         width: 90%;
         padding: 1rem;
     }
@@ -20,7 +20,7 @@
         position: relative;
         width: 50%;
 
-        @media (max-width: 767px) {
+        @include respond(phone) {
             display: none;
         }
 
@@ -30,7 +30,7 @@
             width: 40%;
             transform: translate(-75%, -15%);
 
-            @media (max-width: 767px) {
+            @include respond(phone) {
                 top: 0;
                 transform: none;
             }
@@ -47,8 +47,8 @@
         width: 50%;
         height: 100%;
 
-        @media (max-width: 767px) {
-            width: 100%
+        @include respond(phone) {
+            width: 100%;
         }
     }
 
@@ -57,7 +57,7 @@
         padding-bottom: 1rem;
         text-transform: uppercase;
 
-        @media (max-width: 767px) {
+        @include respond(phone) {
             text-align: center;
         }
     }
@@ -85,7 +85,7 @@
                 cursor: pointer;
             }
 
-            @media (max-width: 767px) {
+            @include respond(phone) {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
